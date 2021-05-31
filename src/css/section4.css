@@ -1,0 +1,35 @@
+.section4 {
+  widows: 100%;
+  margin: 10px auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row {
+  width: 80%;
+  margin: 10px auto;
+}
+.col-4 {
+  background-color: #dfe6e9;
+  padding: 20px;
+  height: 30em;
+}
+.col-4 h4 {
+  padding: 20px;
+}
+.col-4 img {
+  width: 250px;
+  padding: 20px;
+}
+.col-4:nth-child(odd) {
+  background-color: #efefef;
+}
+.col-4 p {
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  font-family: Rubik;
+  padding: 20px;
+}
+.col-4 p span {
+  color: blue;
+}

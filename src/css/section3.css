@@ -1,0 +1,35 @@
+.section3 {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  background-color: #dfe6e9;
+  padding: 20px;
+  justify-content: space-around;
+}
+.left {
+  flex-basis: 80%;
+  padding: 50px;
+  text-align: left;
+}
+.left p {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+  line-height: 1.5em;
+  color: #112a73;
+}
+.left button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-color: #b2bec3;
+  border-radius: 5px;
+}
+.right {
+  flex-basis: 20%;
+}
+.right img {
+  width: 180px;
+}
